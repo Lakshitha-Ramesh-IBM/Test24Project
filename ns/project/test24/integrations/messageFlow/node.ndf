@@ -62,9 +62,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">lara</value>
-    <value name="createdDate">1752656814642</value>
-    <value name="lastModifiedDate">1752656814642</value>
+    <value name="lastModifiedBy">lara</value>
+    <value name="lastModifiedDate">1752657917561</value>
     <value name="displayName">messageFlow</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -81,6 +80,14 @@
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">false</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
