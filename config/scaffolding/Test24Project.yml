@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Lakshitha-Ramesh-IBM
   gitUsername: Lakshitha-Ramesh-IBM
   gitBranch: main
+services:
+- serviceName: project.test24.integrations:date
+  packages:
+  - name: Test24Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
