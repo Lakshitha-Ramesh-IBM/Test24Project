@@ -16,3 +16,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.test24.integrations:messageFlow
+  packages:
+  - name: Test24Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
